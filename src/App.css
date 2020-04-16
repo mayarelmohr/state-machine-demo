@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding: 60px;
 }
 
 .App-logo {
@@ -35,4 +36,84 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+legend {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+fieldset {
+  padding: 0;
+  border: none;
+  margin: 20px 0;
+}
+
+form {
+  width: 330px;
+  margin: 0 auto;
+}
+
+.emoji-button {
+  border: solid 1px #dfdfdf;
+  border-radius: 6px;
+  padding: 10px;
+  width: 100px;
+  display: inline-block;
+  font-weight: 600;
+  margin: 0 5px;
+}
+
+.emoji-button:focus {
+  outline: none;
+}
+
+.emoji-button.selected {
+  background-color: #d50174;
+  color: #fff;
+  outline: none;
+  transition: background-color 300ms linear;
+}
+
+.emoji-button span[role="img"] {
+  font-size: 50px;
+  display: block;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin: 5px 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+textarea {
+  display: block;
+  border: solid 1px #dfdfdf;
+  border-radius: 6px;
+  width: 93%;
+  font-size: 16px;
+  font-weight: bold;
+  height: 100px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #d50174;
+}
+
+.submit-button {
+  background: #d50174;
+  width: 100%;
+  height: 60px;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 20px 0;
+  border: none;
 }
