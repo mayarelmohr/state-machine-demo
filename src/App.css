@@ -128,11 +128,13 @@ button:focus {
   outline: none;
 }
 
-form[data-state="loading"] {
+form[data-state="loading"],
+form.loading {
   position: relative;
 }
 
-form[data-state="loading"]::before {
+form[data-state="loading"]::before,
+form.loading::before {
   content: "";
   position: absolute;
   top: 0;

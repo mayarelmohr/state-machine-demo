@@ -23,7 +23,7 @@ const Form = () => {
           </button>
         </fieldset>
         <label htmlFor="comments">Please add your comment here</label>
-        <textarea placeholder="Tell us that you love us"></textarea>
+        <textarea placeholder="Tell us if you love us"></textarea>
         <button type="submit" className="submit-button">
           Submit Feedback
         </button>
